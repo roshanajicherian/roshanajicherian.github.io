@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 /* font-family: "Jost", sans-serif; */
 body {
-  background-color: black;
-  font-family:"Jost", sans-serif;;
+  background-color: white;
+  font-family:"Jost", sans-serif;
+  color: black;
+}
+
+.mainheading
+{
+  color: white;
+  margin-top: 16%;
+  margin-left: 3%;
+  line-height: 30px;
+  color: black;
 }
