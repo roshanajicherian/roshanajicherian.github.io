@@ -15,6 +15,10 @@ body {
   padding-bottom: 20%;
   width: 50%;
   line-height: 30px;
+  width: 51%;
+  margin-bottom: -16px;
+  padding-right: 12px;
+  border-right: 2px solid white;
 }
 
 html,
@@ -59,7 +63,14 @@ body,
 .fixed-top {
   padding: 1.5%;
 }
- .navbar-toggler
- {
-   background-color: white;
- }
+.navbar-toggler {
+  background-color: white;
+}
+hr {
+  border: 2px solid white;
+}
+@media only screen and (max-width: 580px) {
+  .mainheading {
+    border: 0px;
+  }
+}
