@@ -59,3 +59,7 @@ body,
 .fixed-top {
   padding: 1.5%;
 }
+ .navbar-toggler
+ {
+   background-color: white;
+ }
