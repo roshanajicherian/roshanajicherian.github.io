@@ -6,6 +6,7 @@ body {
   font-family: "Jost", sans-serif;
   font-family: "Raleway", sans-serif;
   color: white;
+  list-style: none;
 }
 html,
 body,
@@ -59,9 +60,9 @@ body,
 }
 .col-md-6,
 .col-12,
-.col-xs-12 {
+.col-xs-12,
+.col-lg-6 {
   background: black;
-  /* background-color: black; */
   border: 1px solid white;
   height: auto;
   padding-top: 9%;
@@ -77,4 +78,39 @@ body,
 }
 .content {
   padding-left: 2px;
+}
+.skills {
+  color: white;
+}
+.bar {
+  background: #3e4658;
+  display: block;
+  height: 8px;
+  width: 82rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2323cc;
+}
+.bar span {
+  height: 2px;
+  background: white;
+  float: left;
+}
+.cpp {
+  width: 90%;
+  color: blue;
+}
+.py {
+  width: 70%;
+}
+.dsa {
+  width: 50%;
+}
+.prob {
+  width: 50%;
+}
+.items {
+  padding-top: 20px;
+  padding-bottom: 8px;
 }
