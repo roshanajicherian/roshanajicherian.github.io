@@ -69,8 +69,19 @@ body,
 hr {
   border: 2px solid white;
 }
+#collegeDesc {
+  font-size: 2.5vw;
+  /* text-align: justify; */
+  width: 51%;
+  margin-bottom: 40%;
+}
 @media only screen and (max-width: 580px) {
   .mainheading {
     border: 0px;
+  }
+  #collegeDesc {
+    width: 100%;
+    display: block;
+    font-size: 3rem;
   }
 }
