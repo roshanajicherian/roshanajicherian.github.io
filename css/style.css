@@ -60,7 +60,8 @@ body,
 .col-md-6,
 .col-12,
 .col-xs-12 {
-  background-color: black;
+  background: black;
+  /* background-color: black; */
   border: 1px solid white;
   height: auto;
   padding-top: 9%;
