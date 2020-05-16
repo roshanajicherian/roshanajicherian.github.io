@@ -54,7 +54,7 @@ body,
   background-color: white;
 }
 .display-3 {
-  font-size: 3.7rem;
+  font-size: 8.1vh;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -83,6 +83,12 @@ body,
   color: white;
 }
 .progress {
-  margin-bottom: 2.5vw;
-  margin-top: 1.5vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+.skillsheader {
+  margin-bottom: 2%;
+}
+.tech {
+  padding: -3px;
 }
