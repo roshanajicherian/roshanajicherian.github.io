@@ -13,15 +13,8 @@ body,
 #intro {
   height: 100%;
 }
-#intro {
-  background: url("..//img/backgroundMatrix.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 .navbar-light .navbar-brand {
-  color: white;
+  color: black;
   font-size: 25px;
   text-transform: uppercase;
   padding-left: 2%;
@@ -31,12 +24,12 @@ body,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: white;
+  color: black;
   text-transform: uppercase;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: black;
   margin-right: 1.5rem;
   text-transform: uppercase;
 }
@@ -65,13 +58,14 @@ body,
   background: black;
   border: 1px solid white;
   height: auto;
-  padding-top: 9%;
+  padding-top: 4%;
   padding-left: 3%;
   padding-bottom: 11%;
 }
 #collegeDesc {
-  font-size: 2.5vw;
+  font-size: 2vw;
   padding-top: 6%;
+  padding-top: 16%;
 }
 .Education {
   line-height: 45px;
@@ -91,4 +85,18 @@ body,
 }
 .tech {
   padding: -3px;
+}
+.scv {
+  margin-top: -4%;
+}
+.school {
+  font-size: 4vh;
+  margin-top: 14.8vh;
+}
+.year {
+  font-size: 2vh;
+}
+.score {
+  margin-left: 10px;
+  /* display: inline-block; */
 }
