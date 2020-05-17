@@ -112,10 +112,10 @@ body,
   background-repeat: no-repeat;
   background-position: 50%;
   border-radius: 50%;
-  width: 20rem;
+  width: 13rem;
   align-items: center;
   display: block;
-  margin-top: 5vh;
+  margin-top: 24vh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -156,4 +156,8 @@ a.icons.fab.fa-github.fa-3x {
 }
 .fa-envelope:before {
   color: #f14545fa;
+}
+
+h1.display-3.myName {
+  margin-top: 0%;
 }
