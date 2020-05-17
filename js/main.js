@@ -14,3 +14,4 @@ function checker() {
 function scroller() {
   window.scrollBy(0, -80);
 }
+$(function () { AOS.init({ offset: 100, duration: 700, easing: "ease-out-quad", once: !0 }); window.addEventListener('load', AOS.refresh); });
