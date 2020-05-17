@@ -84,6 +84,7 @@ body,
   margin-bottom: 2%;
 }
 .tech {
+  font-size: 149%;
   padding: -3px;
 }
 .scv {
@@ -98,5 +99,41 @@ body,
 }
 .score {
   margin-left: 10px;
-  /* display: inline-block; */
+}
+.icons {
+  width: auto;
+  margin: 6%;
+  display: flex;
+  align-content: center;
+}
+.icon {
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact {
+  padding-bottom: 10px;
+}
+.myimg img {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  width: 20%;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainheading {
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+}
+.hi,
+.name {
+  text-align: center;
+}
+.intro {
+  margin-top: 4%;
+  padding-top: inherit;
+}
+.myimg {
+  padding-top: 5%;
 }
