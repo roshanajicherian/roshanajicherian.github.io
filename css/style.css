@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
 }
-a.icons.fab.fa-github.fa-3x {
+.icons.fab.fa-github.fa-3x {
   color: black;
 }
 .fa-envelope:before {
@@ -165,4 +165,7 @@ a.icons.fab.fa-github.fa-3x {
 }
 .icons {
   margin-right: 10%;
+}
+.icons.fab.fa-linkedin-in.fa-3x {
+  color: #0e76a8;
 }
